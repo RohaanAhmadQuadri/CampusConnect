@@ -1,0 +1,10 @@
+backend/venv/
+**/__pycache__/
+*.pyc
+
+frontend/erp/node_modules/
+frontend/erp/build/
+
+.env
+.env.*
+.vscode/

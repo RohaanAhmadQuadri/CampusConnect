@@ -1,0 +1,27 @@
+*{
+    margin : 0 ;
+    font-family: Arial, sans-serif;
+}
+
+.total-box{
+    width: 300px;
+    height: 10px;
+    border-color: black;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    margin: 10px;
+    display : flex;
+    padding: 9px;
+}
+
+.outer-attendace-box {
+    margin: 20%;
+    display: flex;   
+    gap: 20px;      
+}
+.name-head {
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: rgb(144, 143, 143);
+}
