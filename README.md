@@ -1,60 +1,58 @@
 # 🎓 Campus Connect ERP
 
-![Status](https://img.shields.io/badge/Status-Work%20In%20Progress-orange)
-![Frontend](https://img.shields.io/badge/Frontend-React-blue)
-![Backend](https://img.shields.io/badge/Backend-FastAPI-green)
-![Database](https://img.shields.io/badge/Database-MySQL-blue)
-![Authentication](https://img.shields.io/badge/Auth-JWT-red)
+<p align="center">
+  <b>A Modern College ERP System built using React, FastAPI, MySQL, and JWT Authentication.</b>
+</p>
 
-## 🚧 Project Status
-
-**Campus Connect ERP is currently under active development.**
-
-This project is not yet feature-complete and is being continuously improved. The current version includes authentication, attendance management, student profile functionality, and core backend APIs. Additional modules and enhancements are planned for future releases.
+<p align="center">
+  🚧 <b>Project Status: Under Active Development</b> 🚧
+</p>
 
 ---
 
-## 📖 Overview
+## 📌 Overview
 
-Campus Connect is a full-stack College ERP (Enterprise Resource Planning) system designed to streamline academic and administrative processes within educational institutions.
+Campus Connect is a full-stack College ERP (Enterprise Resource Planning) system designed to simplify academic management for students and faculty.
 
-The goal of this project is to provide a centralized platform where students, teachers, and administrators can access and manage academic information efficiently.
+The project aims to provide a secure, responsive, and user-friendly platform where students can access academic information while administrators and faculty can manage institutional data efficiently.
 
-This project is being developed using **React**, **FastAPI**, **MySQL**, and **JWT Authentication**.
-
----
-
-## ✨ Current Features
-
-### Authentication
-
-* Secure JWT-based authentication
-* Student login system
-* Role-based access control
-
-### Student Module
-
-* Student profile page
-* Attendance dashboard
-* Subject information
-* Attendance percentage tracking
-
-### Backend
-
-* FastAPI REST APIs
-* MySQL database integration
-* Protected routes using JWT tokens
-
-### Frontend
-
-* Responsive React UI
-* Modern dashboard design
-* Attendance management interface
-* Profile management interface
+This repository is actively maintained and new features are continuously being added.
 
 ---
 
-## 🛠️ Tech Stack
+## ✨ Features
+
+### Currently Implemented
+
+* 🔐 JWT Authentication
+* 👨‍🎓 Student Login
+* 👨‍🏫 Role-Based Authentication
+* 📊 Attendance Module
+* 📚 Subject Information
+* 👤 Student Profile
+* ⚡ FastAPI REST APIs
+* 💾 MySQL Database Integration
+* 🎨 Responsive React Frontend
+
+---
+
+## 🚀 Planned Features
+
+* Teacher Dashboard
+* Admin Dashboard
+* Student Result Management
+* Assignment Portal
+* Notice Board
+* Timetable Management
+* Fee Management
+* Attendance Analytics
+* Profile Editing
+* Mobile Responsive Improvements
+* Deployment
+
+---
+
+# 🛠️ Tech Stack
 
 ### Frontend
 
@@ -76,7 +74,7 @@ This project is being developed using **React**, **FastAPI**, **MySQL**, and **J
 
 * JWT (JSON Web Token)
 
-### Tools
+### Development Tools
 
 * Git
 * GitHub
@@ -84,62 +82,40 @@ This project is being developed using **React**, **FastAPI**, **MySQL**, and **J
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```text
 CampusConnect/
 │
 ├── backend/
 │   ├── routers/
-│   │   ├── auth.py
-│   │   └── student.py
 │   ├── main.py
 │   ├── security.py
 │   └── ...
 │
 ├── frontend/
 │   └── erp/
-│       ├── public/
 │       ├── src/
-│       │   ├── pages/
-│       │   ├── styles/
-│       │   └── resources/
+│       ├── public/
 │       └── ...
 │
-└── .gitignore
+├── .gitignore
+└── README.md
 ```
 
 ---
 
-## 🗄️ Database Setup
+# ⚙️ Installation
 
-This project uses **MySQL** as its database.
-
-Before running the backend:
-
-1. Install MySQL Server.
-2. Create a database named:
-
-```sql
-CREATE DATABASE erp;
-```
-
-3. Create the required tables and import your data.
-4. Configure your database credentials in your local environment.
-
-> **Note:** SQL schema files and sample data are currently not included in this repository and will be added in future updates.
-
----
-
-## 🚀 Installation
-
-### Clone the Repository
+## Clone Repository
 
 ```bash
 git clone https://github.com/RohaanAhmadQuadri/CampusConnect.git
 ```
 
-### Backend Setup
+---
+
+## Backend Setup
 
 ```bash
 cd backend
@@ -147,13 +123,9 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
-Backend will run on:
+---
 
-```text
-http://127.0.0.1:8000
-```
-
-### Frontend Setup
+## Frontend Setup
 
 ```bash
 cd frontend/erp
@@ -161,78 +133,63 @@ npm install
 npm start
 ```
 
-Frontend will run on:
+---
 
-```text
-http://localhost:3000
+# 🗄️ Database Setup
+
+This project uses **MySQL**.
+
+Create a database named:
+
+```sql
+CREATE DATABASE erp;
 ```
 
----
+Import your database schema before running the backend.
 
-## 📸 Screenshots
-
-Screenshots will be added as the project progresses.
-
-Suggested screenshots:
-
-* Login Page
-* Student Dashboard
-* Attendance Module
-* Student Profile Page
+> **Note:** Database schema and sample data are currently being organized and will be uploaded in a future update.
 
 ---
 
-## 🛣️ Roadmap
+# 📸 Screenshots
 
-Planned features include:
-
-* Teacher Dashboard
-* Admin Dashboard
-* Marks Management
-* Assignment Submission System
-* Notice Board
-* Timetable Management
-* Fee Management
-* Student Performance Analytics
-* Enhanced Security Features
-* Deployment and Hosting
+Screenshots will be added as development progresses.
 
 ---
 
-## 🎯 Learning Objectives
+# 📈 Future Roadmap
 
-This project was built to gain practical experience with:
-
-* Full Stack Development
-* REST API Development
-* JWT Authentication
-* Database Design
-* React Application Development
-* FastAPI Backend Development
-* Git & GitHub Workflow
-
----
-
-## 🤝 Contributions
-
-This is currently a personal learning and development project.
-
-Suggestions, feedback, and improvement ideas are always welcome.
+* Improve backend architecture
+* Add complete Teacher Portal
+* Add Admin Portal
+* Improve UI/UX
+* Add marks management
+* Add notifications
+* Deploy application
+* Enhance security
 
 ---
 
-## 👨‍💻 Author
+# 🤝 Contributing
+
+This project is currently being developed as a personal learning project.
+
+Suggestions and constructive feedback are always welcome.
+
+---
+
+# 👨‍💻 Author
 
 **Rohaan Ahmad Quadri**
 
-B.Tech CSE Student
-
-GitHub: https://github.com/RohaanAhmadQuadri
+* GitHub: https://github.com/RohaanAhmadQuadri
 
 ---
 
-## ⭐ Support
+# ⭐ Project Status
 
-If you found this project interesting, consider giving it a star.
+Campus Connect is **not yet completed**.
 
-It motivates further development and helps showcase the project to a wider audience.
+The project is actively being developed, and new features, modules, and improvements will continue to be added over time.
+
+This repository represents my learning journey in Full Stack Development using React, FastAPI, MySQL, JWT Authentication, and Git.
